@@ -1,19 +1,19 @@
 {
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
     "##": "Written by release/write-package-manifests.mjs in erden-sh/erden and updated by its release workflow.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Check, package and publish ontologies with the Erden registry",
     "homepage": "https://erden.sh",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/erden-sh/erden/releases/download/v0.1.0/erden-0.1.0-win32-x64.zip",
-            "hash": "12f231c1f6216162a4526cd9ceb21e2936d3bb35487766ceb80fb8effaf16893",
-            "extract_dir": "erden-0.1.0-win32-x64"
+            "url": "https://github.com/erden-sh/erden/releases/download/v0.2.0/erden-0.2.0-win32-x64.zip",
+            "hash": "42d83c6c7fba45d13a17575a8b383ef8a969a2818ad5f2525d13410604abf432",
+            "extract_dir": "erden-0.2.0-win32-x64"
         }
     },
     "bin": [
-        "bin\\erden.cmd",
+        "bin\\erden.exe",
         "bin\\den.cmd"
     ],
     "checkver": {
